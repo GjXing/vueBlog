@@ -2,7 +2,7 @@
   "name": "bga-issue-blog",
   "version": "1.0.0",
   "description": "BGAIssueBlog",
-  "author": "bingoogolapple <bingoogolapple@gmail.com>",
+  "author": "jiaxing <jiaxing2658@sina.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

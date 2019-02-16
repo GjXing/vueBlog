@@ -48,8 +48,11 @@
 .selected-menu {
   color: #fff;
   text-shadow: 0 0 6px rgba(0,120,255,.9);
+      background-color: #e5f1fc;
+    color: #3593f2;
+    border-left: 5px solid #3593f2;
   &:before {
-    background-color: $indicator-color;
+    background-color: #3593f2;
   }
 }
 

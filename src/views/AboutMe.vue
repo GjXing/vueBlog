@@ -14,7 +14,7 @@
   export default {
     data () {
       return {
-        renderedMarkdown: ''
+        renderedMarkdown: '佳兴'
       }
     },
     methods: {
@@ -28,7 +28,7 @@
     },
     mounted () {
       this.$nextTick(() => {
-        this.getReadme()
+//      this.getReadme()
       })
     }
   }

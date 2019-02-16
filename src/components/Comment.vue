@@ -2,8 +2,10 @@
   <div class="comment">
     <div class="comment-title">
       <div @click="openGitHub()">
-        <img :src="comment.user.avatar_url">
-        <span>{{comment.user.login}}</span>
+        <img src="https://avatars3.githubusercontent.com/u/33147078?v=4">
+        <!--<img :src="comment.user.avatar_url">-->
+        <span>GJxing</span>
+        <!--<span>{{comment.user.login}}</span>-->
       </div>
       <span class="time">{{$moment(comment.created_at).format('YYYY-MM-DD HH:mm')}}</span>
     </div>
@@ -28,7 +30,7 @@
         }
       },
       openGitHub () {
-        window.open(this.comment.user.html_url)
+        window.open('https://github.com/GjXing')
       }
     },
     mounted () {

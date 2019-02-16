@@ -1,6 +1,7 @@
 module.exports = {
   getLabels (vue) {
-    return vue.$http.get(`https://api.github.com/repos/${vue.$store.getters.repo}/labels`)
+    return []
+//  return vue.$http.get(`https://api.github.com/repos/${vue.$store.getters.repo}/labels`)
   },
   getGitHubUser (vue) {
     return vue.$http.get(`https://api.github.com/users/${vue.$store.getters.gitHubUsername}`)
