@@ -28,7 +28,7 @@
     },
     mounted () {
       this.$nextTick(() => {
-//      this.getReadme()
+        this.getReadme()
       })
     }
   }

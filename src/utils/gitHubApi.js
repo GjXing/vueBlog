@@ -1,7 +1,7 @@
 module.exports = {
   getLabels (vue) {
-    return []
-//  return vue.$http.get(`https://api.github.com/repos/${vue.$store.getters.repo}/labels`)
+//  return []
+    return vue.$http.get(`https://api.github.com/repos/${vue.$store.getters.repo}/labels`)
   },
   getGitHubUser (vue) {
     return vue.$http.get(`https://api.github.com/users/${vue.$store.getters.gitHubUsername}`)
@@ -36,7 +36,7 @@ module.exports = {
     })
   },
   getReadme (vue) {
-    return vue.$http.get(`https://raw.githubusercontent.com/${vue.$store.getters.repo}/master/README.md`, {
+    return vue.$http.get(`https://raw.githubusercontent.com/${vue.$store.getters.repo}/master/READMEINFO.md`, {
       headers: {
         'Accept': 'application/vnd.github.v3.html'
       }
