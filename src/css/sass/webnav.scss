@@ -16,7 +16,7 @@
 		    }
 		}
 		&.active a{
-			background: #2b333b;
+			background: #FF5E52;
 		    color: #fff;
 		    border-radius: 2px;
 		}
@@ -31,14 +31,16 @@
 	display: inline-table;
     padding: $margin;
     h1{
-    	font-size: 1.2rem;
+    	font-size: 1.5rem;
     	font-weight: 400;
+    	padding-left: 1rem;
     	color: #14191e;
+    	margin-bottom: .5rem;
     }
 }
 .wn-container{
 	@include display;
-	padding: $margin 0;
+	padding: $margin ;
 	.wn-l{
         margin-right: $margin;
         span{ 
@@ -46,11 +48,12 @@
         	width: 6rem;
         	padding: .5rem;
         	text-align: center;
-        	background-color: #dfdfdf;
+        	background-color: #45B6F7;
         }
 	}
 	.wn-r{
 		@include flex;
+		margin-left: .5rem;
 		a{
 			padding: .5rem;
     		display: inline-block;

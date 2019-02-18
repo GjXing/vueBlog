@@ -14,7 +14,8 @@ $indicator-color: #3593f2;
     cursor: pointer;
     font-size: $fs8;
     &:hover {
-      text-shadow: 0 0 6px rgba(0,120,255,.9);
+  color: #fff; 
+      text-shadow: 0 0 6px #FF5E52;
     }
     span{
       margin-left: 50px;
